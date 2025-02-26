@@ -7,7 +7,7 @@ st.title("Clinical Technology 2025 Intake")
 
 # Staff data
 staff = {
-    "Dr Lisa Repsold": {"Role":"Section Head & 1st Year Guardian","Subject speciality":"Physiology","LinkdIn profile":"xxxx","Office number":"012 382 6169","Email address":"RepsoldL@tut.ac.za", "Image":"./group.jpg"},
+    "Dr Lisa Repsold": {"Role":"Section Head & 1st Year Guardian","Subject speciality":"Physiology","LinkdIn profile":"xxxx","Office number":"012 382 6169","Email address":"RepsoldL@tut.ac.za", "Image":"./lisa.jpg"},
     "Ms Botlhale Magoshi": {"Role":"2nd Year Guardian","Subject speciality":"Anatomy","LinkdIn profile":"xxxx","Office number":"012 382 6119","Email address":"MagoshiB@tut.ac.za", "Image":"./botlhale.jpg"},
     "Ms Zelneri van Coppenhagen": {"Role":"3th Year Guardian","Subject speciality":"Work-integrated learning","LinkdIn profile":"xxxx","Office number":"012 382 6210","Email address":"VanCoppenhagen@tut.ac.za", "Image":"./zelneri.jpg"},
     "Ms Marinda Swart": {"Role":"4th Year Guardian","Subject speciality":"Biomedical Apparatus","LinkdIn profile":"xxxxc","Office number":"012 382 6263","Email address":"SwartM1@tut.ac.za", "Image":"./marinda.jpg"},
@@ -42,7 +42,7 @@ if view_option == "Staff Member Profile":
             st.write(f"**Name:** {selected_person}")
             st.write(f"**Role:** {details['Role']}")
             st.write(f"**Subject speciality:** {details['Subject speciality']}")
-            st.write(f"**LinkdIn profile:** {details['LinkdIn profile']}")
+            #st.write(f"**LinkdIn profile:** {details['LinkdIn profile']}")
             st.write(f"**Office number:** {details['Office number']}")
             st.write(f"**Email address:** {details['Email address']}")
             # Display image with specified dimensions
